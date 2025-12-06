@@ -44,9 +44,6 @@ A **Left-Tailed T-Test** was run to test for a significant increase in mean watc
 
 ## 3. Predictive Modeling and Achievement Drivers (Steps 8-9)
 
-### Event Dependency
-The analysis found that the events of being engaged in 2021 and 2022 are **Dependent** ($P(\text{Intersection}) = 0.04 \ne P(E_{2021}) \times P(E_{2022})$), confirming low overlap and high churn/user base shift.
-
 ### Machine Learning: Linear Regression Model Analysis
 
 A Linear Regression model used **Minutes Watched** as the predictor and **Certificates Issued** as the target.
