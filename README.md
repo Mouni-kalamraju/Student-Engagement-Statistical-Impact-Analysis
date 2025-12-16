@@ -37,4 +37,7 @@ The Linear Regression model correlating Minutes Watched with Certificates Issued
 1.  **Retention Focus:** An urgent investigation into the high-engagement (top 10%) Paid user segment is required to identify why new features led to a drop in their consumption.
 2.  **Model Expansion:** Future data science efforts must prioritize collecting and modeling non-video behavioral data to accurately predict student success.
 
+## Tableau Dashboard
+<img width="1600" height="900" alt="Dashboard" src="https://github.com/user-attachments/assets/f0009958-0feb-47ff-9cbc-267f1deec481" />
+
 -----
