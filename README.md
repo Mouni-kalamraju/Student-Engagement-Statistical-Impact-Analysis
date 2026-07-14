@@ -12,7 +12,7 @@ Did the introduction of new features (courses, career tracks, and exams) lead to
 
 ## Data Source
 
-This analysis uses a course-work dataset (minutes watched and certificates issued, Q2 2021 vs. Q2 2022, Free vs. Paid segments) provided as part of a data analytics coursework project. Noted here for transparency since the dataset's provenance affects how findings should be generalized.
+This analysis uses a course-work dataset (minutes watched and certificates issued, Q2 2021 vs. Q2 2022, Free vs. Paid segments) provided as part of a data analytics coursework project. 
 
 ## Key Findings & Conclusions
 
