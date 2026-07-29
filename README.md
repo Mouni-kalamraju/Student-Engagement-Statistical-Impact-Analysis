@@ -1,5 +1,9 @@
 #  Student Engagement Statistical Impact Analysis
 
+## Tableau Dashboard
+<img width="1600" height="900" alt="Dashboard" src="https://github.com/user-attachments/assets/f0009958-0feb-47ff-9cbc-267f1deec481" />
+
+
 ## Project Overview
 
 This project is a comprehensive **statistical and predictive analysis** of student engagement on an online coaching platform, specifically evaluating the impact of new platform features launched between **Q2 2021 and Q2 2022**. The analysis moves beyond descriptive statistics to apply advanced hypothesis testing and predictive modeling to deliver **data-driven conclusions** on product success and strategy.
@@ -44,11 +48,20 @@ An R² of 0.2218 means only about **22% of the variance in certificates issued i
 | **Modeling & Prediction** | **Scikit-learn** | Linear Regression model to assess the relationship between Minutes Watched and Certificates Earned. |
 | **Visualization** | **Matplotlib, Tableau** | Visualization of skewed distributions (KDE plots) and dashboard creation for communicating core insights (CI, Median vs. Mean divergence). |
 
-## Key Takeaways for Business Strategy
+## Core Business and Feature strategies:
 
-1.  **Retained-Subscriber Re-engagement (Urgent):** 69.6% of subscribers who paid in both 2021 and 2022 show declining engagement, with a 66.7% median drop — a strong leading indicator of future cancellation despite currently-active subscriptions. This group, not new subscribers, should be the immediate retention priority.
-2.  **Platform-Wide Low Retention:** Only 7.2% of Q2 2022 watchers had also watched in Q2 2021 — watching in one quarter is statistically dependent on (and lower than chance predicts for) watching in the other. Retention is a platform-wide challenge, not one confined to Paid users.
-3.  **Model Expansion:** Future data science efforts must prioritize collecting and modeling non-video behavioral data to accurately predict student success.
+1.  **Urgent Focus on Retained-Subscriber Re-Engagement (Primary Retention Strategy):**
+
+       *    **The Insight:** 69.6% of subscribers who maintained paid subscriptions in both 2021 and 2022 showed declining engagement, with a severe 66.7% median drop in minutes watched.
+       *    **The Strategy:** Prioritize returning paid subscribers for targeted win-back and re-engagement campaigns immediately. Because these users are actively disengaging while still paying, they represent a high risk for impending subscription cancellations.
+    
+2.  **Address Platform-Wide Retention (Product & Growth Strategy):**
+ 
+    *    **The Insight:**  Only 7.2% of users who watched content in Q2 2022 had also watched content in Q2 2021. Repeat engagement from one year to the next is statistically lower than expected by chance.
+    *    **The Strategy:** Treat retention as a platform-wide structural challenge across both Free and Paid tiers—rather than assuming it is isolated to paid subscribers—by building ongoing learning habits, milestone incentives, or long-term career track roadmaps.
+3.  **Expand Behavioral Data Tracking Beyond Video (Feature & Modeling Strategy):**
+    *    **The Insight:** The current Linear Regression model relies solely on `minutes_watched` to predict `certificates_issued`, achieving an $R^2$ of 0.2218 (explaining only ~22% of the variance).
+    *    **The Strategy:** Future product and data efforts must prioritize collecting non-video behavioral metrics—such as assignments submitted, quiz completions, and practice time—to build stronger predictive models for student success and tailor feature recommendations.
 
 ## Repository Structure
 
@@ -69,7 +82,5 @@ An R² of 0.2218 means only about **22% of the variance in certificates issued i
     └── student_engagement_dashboard.twbx           # Tableau dashboard workbook
 ```
 
-## Tableau Dashboard
-<img width="1600" height="900" alt="Dashboard" src="https://github.com/user-attachments/assets/f0009958-0feb-47ff-9cbc-267f1deec481" />
 
 -----
